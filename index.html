@@ -1,0 +1,36 @@
+<html>
+    <head>
+    <script>
+        var seconds = 0
+        window.setInterval(function(){
+            seconds += 1;
+            document.getElementById("num").innerHTML = seconds
+        }, 1000);
+    </script>
+    <style>
+	* {
+	  font-family: Courier, serif, Times;
+	  font-size:90px;
+    }
+    #footer {
+    color:red;
+    height: 50px;
+    margin: auto;
+    text-align:center;
+    font-size: 45px;
+    }
+    #footercontainer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    }
+        </style>
+        </head>
+        <body>
+
+            It's been <span id="num">0</span> seconds since you arrived on this page.
+            
+            <div id="footercontainer"><a href="https://discord.gg/FfsxEvv" id="footer">:)</a></div>
+        </body>
+</html>
