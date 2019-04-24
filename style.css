@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Typewriter;
+    src: url('MonospaceTypewriter.ttf');
+}
+
+	* {
+      font-family: Typewriter;
+	  font-size:80px;
+    }
+    button {
+        font-size:25px;
+        color: #000000;
+        background: #F2F2F2;
+        font-weight: bold;
+        border: 2px solid red;
+        border-radius: 4px;
+        transition-duration: 0.2s;
+        cursor: pointer;
+        bottom: 0;
+        position: fixed;
+        z-index: 1;
+    }
+    button:hover {
+        color: #FFF;
+        background: red;
+    }
